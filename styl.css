@@ -2,6 +2,19 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.opona1 {
+    background-color: #9FA8DA;
+    position: relative;
+    border: dotted 2px #C5CAE9;
+    width: 80%;
+    border-radius: 13px;
+    overflow: hidden;
+    text-align: left;
+    margin: 10px;
+    margin-left: 30px;
+    height: 120px
+}
+
 #blok_boczny{
     background-color: #C5CAE9;
     width: 40%;
@@ -32,16 +45,17 @@
     clear: both;
 }
 
-h2{
+h2 {
     text-align: center;
-    margin: 0px;
-    padding: 10px;
+    margin: 0;
+    padding: 15px;
 }
 
 h3{
     background-color: #7986CB;
     color: white;
-    size: 140%;
+    font-size: 140%;
+    
 }
 
 .opona {
