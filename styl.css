@@ -1,39 +1,28 @@
-*{
+* {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.opona1 {
-    background-color: #9FA8DA;
-    position: relative;
-    border: dotted 2px #C5CAE9;
-    width: 80%;
-    border-radius: 13px;
-    overflow: hidden;
-    text-align: left;
-    margin: 10px;
-    margin-left: 30px;
-    height: 120px
-}
-
-#blok_boczny{
+#blok_boczny {
     background-color: #C5CAE9;
     width: 40%;
     height: 600px;
     float: left;
+    overflow: scroll;
 }
 
-#sekcja_1, #sekcja_2{
+#sekcja_1,
+#sekcja_2 {
     width: 60%;
     height: 300px;
     float: left;
 }
 
-#sekcja_1{
+#sekcja_1 {
     background-color: #9FA8DA;
     text-align: center;
 }
 
-#sekcja_2{
+#sekcja_2 {
     background-color: #7986CB;
     text-align: center;
 }
@@ -51,11 +40,10 @@ h2 {
     padding: 15px;
 }
 
-h3{
+h3 {
     background-color: #7986CB;
     color: white;
     font-size: 140%;
-    
 }
 
 .opona {
@@ -63,10 +51,36 @@ h3{
     margin: 40px;
     border: dotted 2px #263593;
     border-radius: 30px;
+    height: 100px;
 }
 
 img {
     padding: 20px;
     float: left;
     height: 250px;
+}
+
+.opona h3 {
+    margin-top: -1px;
+    padding-left: 140px;
+}
+
+.opona h2 {
+    margin-right: 250px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 12.5px;
+    height: 0;
+}
+
+.icon {
+    height: 80px;
+    width: 80px;
+    padding: 10px;
 }
